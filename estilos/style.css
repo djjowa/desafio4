@@ -34,7 +34,7 @@ body {
 } */
 
 .header {
-    grid-area: header;
+  /*   grid-area: header; */
     background-color: #333;
     display: flex;
     justify-content: space-between;
@@ -62,7 +62,7 @@ body {
 } */
 
 .carrusel1 {
-    grid-area: carrusel;
+  /*   grid-area: carrusel; */
     align-items: center;
     justify-items: center;
     display:block;
@@ -76,13 +76,13 @@ body {
 } */
 
 .h2 {
-    grid-area: h2;
+ /*    grid-area: h2; */
     text-align: center;
     
   }
 
 .ejemploscentrales {
-    grid-area: ejemploscentrales;
+  /*   grid-area: ejemploscentrales; */
     align-items: center;
     justify-items: center;
     display:block;
@@ -140,7 +140,7 @@ body {
 } */
 
 .FlexContainer {
-    grid-area: Flexcontainer;
+  /*   grid-area: Flexcontainer; */
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -209,7 +209,7 @@ body {
 } */
 
 .leyendaarriba {
-    grid-area: leyendaariba;
+ /*    grid-area: leyendaariba; */
     text-decoration: none;
     justify-content: center;
     margin:5%;
@@ -229,7 +229,7 @@ body {
 } */
 
 .leyendacentral {
-    grid-area: leyendacentral;
+/*     grid-area: leyendacentral; */
     color: white;
     text-decoration: none;
     justify-content: center;
@@ -268,7 +268,7 @@ body {
  */
 
  footer {
-     grid-area: footer;
+/*      grid-area: footer; */
     background: #333;
     display: flex;
     justify-content: space-between;
