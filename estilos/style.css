@@ -25,16 +25,9 @@ body {
     
   }
 
-/*  header antiguo sin grid
-    header {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 .header {
-  /*   grid-area: header; */
+ 
     background-color: #333;
     display: flex;
     justify-content: space-between;
@@ -53,16 +46,10 @@ body {
     padding: 5px;
 }
 
-/*  carrusel antiguo
-    .carrusel1 {
-    align-items: center;
-    justify-items: center;
-    display:block;
-    margin:auto;
-} */
+
 
 .carrusel1 {
-  /*   grid-area: carrusel; */
+
     align-items: center;
     justify-items: center;
     display:block;
@@ -70,19 +57,16 @@ body {
     
   }
 
-/* .h2 {
-    text-align: center;
-    
-} */
+
 
 .h2 {
- /*    grid-area: h2; */
+
     text-align: center;
     
   }
 
 .ejemploscentrales {
-  /*   grid-area: ejemploscentrales; */
+ 
     align-items: center;
     justify-items: center;
     display:block;
@@ -127,20 +111,10 @@ body {
     text-align: center;
 }
 
-/* .FlexContainer {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    text-align: center;
-    width: 90%;
-    overflow: auto;
-    flex-direction: row;
-} */
+
 
 .FlexContainer {
-  /*   grid-area: Flexcontainer; */
+  
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -198,15 +172,7 @@ body {
 
 }
 
-/* .leyendaarriba {
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    margin:5%;
-    padding: 2%;
-    text-align: center;
-    max-width: 80%;
-} */
+
 
 .leyendaarriba {
  /*    grid-area: leyendaariba; */
@@ -218,18 +184,10 @@ body {
     max-width: 80%;
 }
 
-/* .leyendacentral {
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    margin:5%;
-    padding: 4%;
-    text-align: center;
-    max-width: 80%;
-} */
+
 
 .leyendacentral {
-/*     grid-area: leyendacentral; */
+
     color: white;
     text-decoration: none;
     justify-content: center;
@@ -259,16 +217,10 @@ body {
     text-align: center;
 }
 
-/* footer {
-    background: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-}
- */
+
 
  footer {
-/*      grid-area: footer; */
+
     background: #333;
     display: flex;
     justify-content: space-between;
