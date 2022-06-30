@@ -1,15 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-        <!--
-**************************************************
- Estudio LAGLORIA (http://www.estudiolagloria.com)
-**************************************************
--->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="ecommerce, fotografia, productos, publicidad, contenido, retoque, estudio">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>estudiolagloria</title>
@@ -17,109 +10,152 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
-    
-</head>
-<body class="grid-container">
-    <a name="arriba"></a>
-    <header class="header">
-        <div>
-            <img src="images/logo.png" alt="" class="img-logo"> <a href="#"></a>
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">">
+        <!-- logo         -->
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="250" height="80">
+          </a>
+          <!-- navbar -->
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            
+          </ul>
         </div>
+      </nav>
 
-        <nav>
-            <ul class="menu"> 
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>   
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="clientes.html">Clientes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      
+
+
+
+
     </header>
-    <p></p>
-<!-- carrusel -->
 
-    <section class="carrusel">
-        <div>
-            <img src="images/carrusel1.png" alt="carrusel" class="carrusel1" align="center">
+    <!-- carrusel -->
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carrusel1.png" class="d-block w-75" alt="1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carrusel2.jpg" class="d-block w-75" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carrusel3.jpg" class="d-block w-75" alt="3">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
     </section>
 
-<!-- imagenes centrales ejemplos -->
-<div>
-    <p></p>
-    <p></p>
-    <p></p>
-</div>
-<section class="ejemploscentrales">
-    <section> 
-        <div class="contenedorh2">
-            <!-- <h2 class="h2"> ESTUDIO LAGLORIA</h2> -->
-            <div class="h2" data-text="ESTUDIO LAGLORIA">ESTUDIO LAGLORIA</div>
+    <!-- imagenes centrales -->
+    <section>
+      <img src="images/home1.jpg" class="rounded float-start img-thumbnail" alt="...">
+      <img src="images/home2.jpg" class="rounded float-end img-thumbnail" alt="...">
+      <img src="images/home3.jpg" class="rounded float-start img-thumbnail" alt="...">
 
-        </div>
+
+
+
+
     </section>
-    
-    <section class='FlexContainer'>
-        <div> <img src="images/home1.jpg" alt="home1" width="150" height="150" align="bottom" class="centralimg">
-            <p> Lorem ipsum dolor sit amet, consectetur </p> </div>
-        <div> <img src="images/home2.jpg" alt="home2" width="150" height="150" align="bottom" class="centralimg">
-            <p> Lorem ipsum dolor sit amet, consectetur  </p> </div>
-        <div> <img src="images/home3.jpg" alt="home3" width="150" height="150" align="bottom" class="centralimg">
-            <p> Lorem ipsum dolor sit amet, consectetur </p> </div>
-    </section>
+
+
+
+
+    <h1>ESTUDIO LAGLORIA</h1>
+
+
+
 
 
     <div class="leyendacentral">
-        <article> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut saepe, sequi quidem laboriosam repellendus illum repudiandae debitis corrupti vero atque quod, quae vel a quisquam perferendis fugiat quam voluptatum.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis eveniet cum incidunt dicta ut? Id at velit atque, in magni consequuntur sed repudiandae soluta aliquam. Qui dolorum suscipit repudiandae in. 
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero facere deserunt accusantium id corrupti tempore, illo veniam quisquam adipisci voluptatem, sapiente sunt, placeat corporis numquam eveniet! Accusamus voluptate laudantium voluptatibus?</article>
-    </div>   
+      <article> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut saepe, sequi quidem laboriosam repellendus illum repudiandae debitis corrupti vero atque quod, quae vel a quisquam perferendis fugiat quam voluptatum.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis eveniet cum incidunt dicta ut? Id at velit atque, in magni consequuntur sed repudiandae soluta aliquam. Qui dolorum suscipit repudiandae in. 
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero facere deserunt accusantium id corrupti tempore, illo veniam quisquam adipisci voluptatem, sapiente sunt, placeat corporis numquam eveniet! Accusamus voluptate laudantium voluptatibus?</article>
+  </div>   
 </section>
-    <p></p>
-    <p></p>
+  <p></p>
+  <p></p>
 
-    
+
+
+
+
+
+
+
 
     <footer class="footer">
 
-         <!-- links rrss -->
-         <div class="rrss">
-        <p>
-        <img src="images/instagram.png" alt="instagram" width="50" height="50" align="center">
-            <a href="instagram.com/lala123" class="footer-link">instagram.com/lala123</a>
-        </p>
-        <p>
-        <img src="images/youtube.png" alt="youtu.be/lala123" width="50" height="50" align="center">
-            <a href="youtu.be/lala123" class="footer-link">youtu.be/lala123</a>
-        </p>
-        <p>
-            <img src="images/mail.png" alt="top10@lala123.com" width="50" height="50" align="center">
-                <a href="mailto:top10@lala123.com" class="footer-link">top10@lala123.com</a>
-        </p>
-        <p>
-        <img src="images/whatsapp.png" alt="+5697764747" width="50" height="50" align="center">
-            <a href="https://wa.me/5697764747/?text=Contacto%20Pagina%20Web" class="footer-link">+5697764747</a>
-        </p>
-        </div>
+      <!-- links rrss -->
+      <div class="rrss">
+     <p>
+     <img src="images/instagram.png" alt="instagram" width="50" height="50" align="center">
+         <a href="instagram.com/lala123" class="footer-link">instagram.com/lala123</a>
+     </p>
+     <p>
+     <img src="images/youtube.png" alt="youtu.be/lala123" width="50" height="50" align="center">
+         <a href="youtu.be/lala123" class="footer-link">youtu.be/lala123</a>
+     </p>
+     <p>
+         <img src="images/mail.png" alt="top10@lala123.com" width="50" height="50" align="center">
+             <a href="mailto:top10@lala123.com" class="footer-link">top10@lala123.com</a>
+     </p>
+     <p>
+     <img src="images/whatsapp.png" alt="+5697764747" width="50" height="50" align="center">
+         <a href="https://wa.me/5697764747/?text=Contacto%20Pagina%20Web" class="footer-link">+5697764747</a>
+     </p>
+     </div>
 
-                <!-- mapa -->
-        <div class="menu">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.5472908637935!2d-70.5056704836932!3d-33.35677510009906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbc004b6fb2d%3A0xccf0e0d8544c49f4!2sLastra%2014130%2C%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1653351001932!5m2!1ses-419!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+             <!-- mapa -->
+     <div class="menu">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.5472908637935!2d-70.5056704836932!3d-33.35677510009906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbc004b6fb2d%3A0xccf0e0d8544c49f4!2sLastra%2014130%2C%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1653351001932!5m2!1ses-419!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
 
 
 <!--         <div class="subir">
-            <a href="#arriba">Ir a la parte de arriba</a>
-        </div>
- -->
+         <a href="#arriba">Ir a la parte de arriba</a>
+     </div>
+-->
 
 
 
 
-    </footer>
+ </footer>
 
-</body>
-
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
