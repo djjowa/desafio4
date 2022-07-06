@@ -6,9 +6,6 @@ body{
 }
 
 
-
-
-
 .nav-black {
   background-color: black;
   color: white;
@@ -67,6 +64,17 @@ vertical-align: middle;
 white-space: nowrap;
 position: relative;
 background-color: #66696a;
+}
+
+
+.col-12 {
+  align-items: center;
+  text-align: center;
+}
+
+.DESTACADOS .row .card-body .container {
+  align-content: center ; 
+  align-items: center;
 }
 
 /* Footer*/
