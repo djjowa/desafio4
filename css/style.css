@@ -1,5 +1,20 @@
 /* variables */
-/* variables */
+/* variables */ /* listas */ /* maps */
+.user1 {
+  background-color: black;
+}
+
+.user2 {
+  background-color: gray;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Raleway", sans-serif !important;
   font-weight: 400, 500;
@@ -21,11 +36,45 @@ body header {
   margin: auto;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  box-sizing: border-box;
+/* fonts */ /* listas */ /* maps */
+.user1 {
+  background-color: black;
+}
+
+.user2 {
+  background-color: gray;
+}
+
+/* extends */
+.imgcentro3, .imgcentro2, .imgcentro1 {
+  border: 2px solid gray;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.imgcentro1 {
+  background-color: black;
+}
+
+.imgcentro2 {
+  background-color: rgb(48, 48, 47);
+}
+
+.imgcentro3 {
+  background-color: rgb(49, 35, 35);
+}
+
+/* mixins */
+.imgancho1 {
+  background-color: black;
+  width: 18%;
+}
+
+.imgancho2 {
+  background-color: black;
+  width: 30%;
 }
 
 .grid-container > * {

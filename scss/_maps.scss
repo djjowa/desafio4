@@ -1,0 +1,22 @@
+/* maps */
+$user1: (
+    font-color: white,
+    bg-home: black,
+    bg-header: #333,
+    flexbox: flex
+);
+
+$user2: (
+    font-color: yellow,
+    bg-home: gray,
+    bg-header: rgb(34, 21, 40)
+ 
+);
+
+.user1 {
+    background-color: map-get($user1, bg-home );
+}
+
+.user2 {
+    background-color: map-get($user2, bg-home );
+}
