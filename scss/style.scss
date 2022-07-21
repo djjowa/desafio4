@@ -3,19 +3,21 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-    body {
-            font-family:'Raleway', sans-serif !important;
-            font-weight: 400,500;
-            background-color: black !important;
-            color: #fff;
-            header {
-                background-color: #333;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-              }        
-        }
-    }
+}
+
+@import "variables";
+@import "body";
+
+
+        
+    
+
+
+
+
+
+
+
 
 
 
@@ -62,14 +64,7 @@
         margin:auto;
     } */
     
-    .carrusel1 {
-      /*   grid-area: carrusel; */
-        align-items: center;
-        justify-items: center;
-        display:block;
-        margin:auto;
-        
-      }
+  
     
     /* .h2 {
         text-align: center;
