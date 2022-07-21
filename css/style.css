@@ -1,10 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
 /* variables */
 /* variables */
 body {
@@ -26,6 +19,13 @@ body header {
   justify-items: center;
   display: block;
   margin: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .grid-container > * {

@@ -1,9 +1,10 @@
 @import "variables";
+@import "listas";
 
 body {
     font-family:'Raleway', sans-serif !important;
     font-weight: 400,500;
-    background-color: $bg-home !important;
+    background-color: nth($colores, 1) !important;
     color: $font-color;
     header {
         background-color: $bg-header;
