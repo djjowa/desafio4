@@ -293,6 +293,10 @@ body {
   color: gray;
 }
 
+.row {
+  text-align: center;
+}
+
 /* animacion textos */
 .contenedorh2 {
   background-color: black;
