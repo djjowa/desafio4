@@ -1,17 +1,2 @@
 /* mixins */
-@mixin imagenesancho($ancho) {
-    width: $ancho;
 
-}
-
-.imgancho1 {
-    background-color: black;
-    @include imagenesancho(18%);
-
-}
-
-.imgancho2 {
-    background-color: black;
-    @include imagenesancho(30%);
-
-}

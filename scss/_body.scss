@@ -1,35 +1,18 @@
+
+@import "footer";
+@import "fonts";
 @import "variables";
 @import "listas";
-@import "maps";
+@import "popup";
 @import "extends";
 @import "mixins";
+@import "maps";
+@import "animation";
 
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-body {
+body{
     font-family:'Raleway', sans-serif !important;
     font-weight: 400,500;
-    background-color: nth($colores, 1) !important;
-    color: $font-color;
-    text-decoration: none;
-    header {
-        background-color: $bg-header;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }        
-}
-
-.carrusel1 {
-    /*   grid-area: carrusel; */
-      align-items: center;
-      justify-items: center;
-      display:block;
-      margin:auto;
-      text-align: center;
-       }
+    background-color: black !important;
+    color: #fff;
+  }
+  

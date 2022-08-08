@@ -4,6 +4,21 @@
 @import "extends";
 @import "mixins";
 
-.nolink {
+  /* Footer*/
+  
+  #Footer{
+    background-color: #66696a;
+    
+    }
+    
+    #Footer h2{
+    font-family:'Raleway', sans-serif !important;
+    font-weight: 400;
+    }
+    
+    #Footer a{
+    color:white;
     text-decoration: none;
-}
+    
+    }
+    
